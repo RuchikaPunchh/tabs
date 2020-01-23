@@ -163,8 +163,8 @@ class TabNavigationView extends React.PureComponent<Props, State> {
               </ResourceSavingScene>
             );
           })}
+           {this._renderTabBar()}
         </ScreenContainer>
-        {this._renderTabBar()}
       </View>
     );
   }
